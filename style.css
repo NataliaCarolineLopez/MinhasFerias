@@ -1,0 +1,82 @@
+<style>
+        /* Estilos gerais */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8bbd0;
+            color: #880e4f;
+        }
+        h1, h2 {
+            color: #c2185b;
+        }
+
+        /* Header */
+        header {
+            background-color: #f48fb1;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Menu de navegação */
+        nav {
+            background-color: #c2185b;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Sections */
+        section {
+            padding: 20px;
+            margin: 0 10%;
+        }
+
+        article {
+            margin-bottom: 30px;
+        }
+
+        article img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        /* Aside fixado no canto direito da tela */
+        aside {
+            position:fixed;
+            right: 20px;
+            top: 100px;
+            width: 25%;
+            background-color: #f1f8e9;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        aside h3 {
+            color: #c2185b;
+        }
+
+        aside ul {
+            list-style-type: square;
+            margin-right: 20px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #f48fb1;
+            text-align: center;
+            padding: 10px;
+            font-size: 0.9em;
+        }
+
+    </style>

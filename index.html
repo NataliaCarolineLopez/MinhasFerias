@@ -4,98 +4,150 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Minhas Férias</title>
+    <title>Minhas Férias de Verão</title>
     <style>
+        /* Estilos gerais */
         body {
             font-family: Arial, sans-serif;
-            background-color: #fce4ec;
-            color: #880e4f;
             margin: 0;
             padding: 0;
+            background-color: #f8bbd0;
+            color: #880e4f;
         }
+        h1, h2 {
+            color: #c2185b;
+        }
+
+        /* Header */
         header {
             background-color: #f48fb1;
             text-align: center;
             padding: 20px;
         }
-        header h1 {
-            font-size: 2.5em;
+
+        /* Menu de navegação */
+        nav {
+            background-color: #c2185b;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
         }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Sections */
         section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
             padding: 20px;
             margin: 0 10%;
         }
+
         article {
-            margin-bottom: 30px;
+            width: 48%;
+            margin-bottom: 20px;
         }
-        img {
-            max-width: 100%;
-            height: auto;
+
+        article img {
+            width: 100%;
             border-radius: 8px;
-            margin-top: 10px;
         }
+
+        aside {
+            width: 30%;
+            background-color: #f1f8e9;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        aside h3 {
+            color: #c2185b;
+        }
+
+        /* Footer */
         footer {
             background-color: #f48fb1;
             text-align: center;
             padding: 10px;
             font-size: 0.9em;
         }
-        h2 {
-            color: #c2185b;
-        }
-        ul {
-            list-style-type: square;
-            margin-left: 20px;
-        }
+
     </style>
 </head>
 <body>
+
+    <!-- Header -->
     <header>
-        <h1>Minhas Férias Incríveis!</h1>
+        <h1>Minhas Férias de Verão</h1>
     </header>
 
+    <!-- Navegação -->
+    <nav>
+        <a href="#praia">Churrasco em família</a>
+        <a href="#passeio">Visita na casa dos avós</a>
+        <a href="#festa">Aniversário do primo</a>
+        <a href="#descanso">Descanso</a>
+    </nav>
+
+    <!-- Conteúdo Principal -->
     <section>
-        <article>
-            <h2>Primeiro dia: Relaxando na praia</h2>
-            <p>No primeiro dia das minhas férias, fui para a praia e aproveitei o sol. A areia estava quente, e a água do mar estava perfeita para nadar. Passei o dia relaxando e me divertindo com meus amigos.</p>
-            <img src="https://via.placeholder.com/800x400/FF80AB/ffffff?text=Praia" alt="Imagem da praia">
+        <!-- Artigo sobre a Praia -->
+        <article id="praia">
+            <h2>Churrasco com a família e amigos conhecidos</h2>
+            <p>No final de dezembro fui para um churrasco no final de tarde na casa de um primo, onde comemos, dançamos, e curtimos bastante. </p>
+            <img src="https://via.placeholder.com/800x400/FF80AB/ffffff?text=Praia" alt="Imagem do churrasco">
         </article>
 
-        <article>
-            <h2>Passeio cultural na cidade</h2>
-            <p>No segundo dia, fiz um passeio cultural pela cidade. Visitei museus e galerias de arte, conhecendo um pouco mais sobre a história local. Foi uma experiência enriquecedora.</p>
-            <img src="https://via.placeholder.com/800x400/FF80AB/ffffff?text=Museu" alt="Imagem do museu">
+        <!-- Artigo sobre o Passeio Cultural -->
+        <article id="passeio">
+            <h2>Visita na casa dos avós</h2>
+            <p>No penúltimo dia das férias fui ao interior visitar os meus avós, fomos no sábado e voltamos no domingo, foi muito bom, rimos bastante e matamos a saudade.</p>
+            <img src="https://via.placeholder.com/800x400/FF80AB/ffffff?text=Museu" alt="Imagem do lugar">
         </article>
 
-        <article>
-            <h2>Festa com amigos</h2>
-            <p>No terceiro dia, organizei uma festa com meus amigos. Decoramos o lugar com muitas luzes e, claro, com a cor rosa predominando. Foi uma noite super divertida!</p>
+        <!-- Aside com Atividades Extras -->
+        <aside>
+            <h3>Atividades Extras</h3>
+            <p>Além das atividades principais, também aproveitei para:</p>
+            <ul>
+                <li>Andar de bicicleta ao longo da orla.</li>
+                <li>Experimentar pratos típicos da culinária local.</li>
+                <li>Fazer um piquenique no parque com amigos.</li>
+                <li>Fotografar todos os momentos para lembrar para sempre.</li>
+            </ul>
+        </aside>
+    </section>
+
+    <!-- Seção com mais atividades -->
+    <section>
+        <!-- Artigo sobre Festa com Amigos -->
+        <article id="festa">
+            <h2>Aniversário do primo em família</h2>
+            <p>Comemoramos o aniversário do meu primo no salão do apartamento durante a tarde, foi muito divertido, teve karaokê e churrasco.</p>
             <img src="https://via.placeholder.com/800x400/FF80AB/ffffff?text=Festa" alt="Imagem da festa">
         </article>
 
-        <article>
-            <h2>Atividades ao ar livre</h2>
-            <p>Durante a semana, também aproveitei para fazer atividades ao ar livre, como caminhadas e passeios de bicicleta. A natureza estava linda, e o clima estava perfeito para estar ao ar livre.</p>
-            <img src="https://via.placeholder.com/800x400/FF80AB/ffffff?text=Natureza" alt="Imagem de atividades ao ar livre">
-        </article>
-
-        <article>
-            <h2>Meus momentos de descanso</h2>
-            <p>É claro que também tive meu tempo de descanso, lendo livros e assistindo filmes. Foi uma mistura de diversão e relaxamento que tornou as férias ainda mais especiais.</p>
+        <!-- Artigo sobre Descanso -->
+        <article id="descanso">
+            <h2>Momentos de Descanso</h2>
+            <p>Entre uma aventura e outra, também reservei tempo para relaxar. Brinquei bastante na rua, assisti a filmes e curti um bom descanso para recarregar as energias.</p>
             <img src="https://via.placeholder.com/800x400/FF80AB/ffffff?text=Descanso" alt="Imagem de descanso">
         </article>
-
-        <h3>Outras coisas que fiz nas férias:</h3>
-        <ul>
-            <li>Comi muito sorvete de morango!</li>
-            <li>Visitei um parque de diversões.</li>
-            <li>Fiz muitas fotos incríveis.</li>
-            <li>Experimentei novos restaurantes e pratos.</li>
-        </ul>
     </section>
 
+    <!-- Rodapé -->
     <footer>
         <p>&copy; 2025 Minhas Férias. Todos os direitos reservados.</p>
     </footer>
+
 </body>
 </html>
