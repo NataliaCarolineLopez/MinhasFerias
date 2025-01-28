@@ -1,5 +1,4 @@
-<style>
-        /* Estilos gerais */
+
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -11,14 +10,12 @@
             color: #c2185b;
         }
 
-        /* Header */
         header {
             background-color: #f48fb1;
             text-align: center;
             padding: 20px;
         }
 
-        /* Menu de navegação */
         nav {
             background-color: #c2185b;
             color: white;
@@ -35,7 +32,15 @@
             text-decoration: underline;
         }
 
-        /* Sections */
+        .content {
+            flex: 3;
+        }
+
+        .content img {
+            width: 55%;
+            border-radius: 8px;
+        }
+
         section {
             padding: 20px;
             margin: 0 10%;
@@ -45,21 +50,13 @@
             margin-bottom: 30px;
         }
 
-        article img {
-            width: 100%;
-            border-radius: 8px;
-        }
-
-        /* Aside fixado no canto direito da tela */
         aside {
-            position:fixed;
-            right: 20px;
-            top: 100px;
-            width: 25%;
+            margin-top: -1100px ;
+            margin-left: 885px ;
             background-color: #f1f8e9;
-            padding: 15px;
+            padding: 1.5em;
             border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
 
         aside h3 {
@@ -71,12 +68,12 @@
             margin-right: 20px;
         }
 
-        /* Footer */
         footer {
             background-color: #f48fb1;
             text-align: center;
             padding: 10px;
             font-size: 0.9em;
+            margin-top: 640px;
         }
 
-    </style>
+   
